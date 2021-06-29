@@ -1,0 +1,57 @@
+.header {
+  height: 100vh;
+  background-image: url(/images/bar-rest.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header-nav {
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 85px;
+  color: #fff;
+  background-color: #262626;
+}
+
+.header-logo {
+  font-family: cursive;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item-link{
+  text-decoration: none;
+  color: #fff;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 15px 30px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color linear 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: #fff;
+  color: #262626;
+}
